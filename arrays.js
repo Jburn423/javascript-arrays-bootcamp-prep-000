@@ -24,10 +24,10 @@ function addElementToEndOfArray(chocolateBars, arrayAdd){
   return[...chocolateBars, arrayAdd];
 }addElementToEndOfArray(chocolateBars,arrayAdd);
 
-// function destructivelyAddElementToEndOfArray(chocolateBars, arrayAdd){
-//   chocolateBars.push(arrayAdd);
-//   return chocolateBars;
-// }destructivelyAddElementToEndOfArray(chocolateBars, arrayAdd);
+function destructivelyAddElementToEndOfArray(chocolateBars, arrayAdd){
+  chocolateBars.push(arrayAdd);
+  return chocolateBars;
+}destructivelyAddElementToEndOfArray(chocolateBars, arrayAdd);
 
 // function accessElementInArray(chocolateBars, index){
 //   return chocolateBars[index];  
