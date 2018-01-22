@@ -20,7 +20,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, arrayAdd){
 function addElementToEndOfArray(chocolateBars, arrayAdd){
   // chocolateBars = [chocolateBars, ...arrayAdd];
   // return chocolateBars;
-  return
+  return[...chocolateBars, arrayAdd];
 }addElementToEndOfArray(chocolateBars,arrayAdd);
 
 // function destructivelyAddElementToEndOfArray(chocolateBars, arrayAdd){
