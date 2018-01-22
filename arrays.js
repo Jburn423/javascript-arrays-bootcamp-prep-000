@@ -33,10 +33,10 @@ function accessElementInArray(chocolateBars, index){
   return chocolateBars[index];  
 }accessElementInArray([3]);
 
-// function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
-//   chocolateBars.shift();
-//   return chocolateBars;
-// }destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.shift();
+  return chocolateBars;
+}destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
 
 // function removeElementFromBeginningOfArray(chocolateBars){
 //   chocolateBars.slice(0);
