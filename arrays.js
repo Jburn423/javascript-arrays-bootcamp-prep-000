@@ -38,7 +38,7 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   return chocolateBars;
 }destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
 
-// function removeElementFromBeginningOfArray(chocolateBars){
-//   chocolateBars.slice(0);
-//   return chocolateBars;
-// }removeElementFromBeginningOfArray(chocolateBars);
+function removeElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.slice(0);
+  return chocolateBars;
+}removeElementFromBeginningOfArray(chocolateBars);
