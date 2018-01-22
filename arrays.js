@@ -5,8 +5,9 @@ var arrayAdd = "foo";
 Should add elements to the beginning of the array
 Should return a NEW array*/
 function addElementToBeginningOfArray(chocolateBars, arrayAdd){
-  chocolateBars = [arrayAdd, ...chocolateBars];
-  return chocolateBars;
+  // chocolateBars = [arrayAdd, ...chocolateBars];
+  // return chocolateBars;
+  return[arrayAdd, ...chocolateBars];
 }addElementsToBeginningOfArray(chocolateBars,arrayAdd);
 
 /*Should have (2) Parameters: An existing array and elements to add to it 
